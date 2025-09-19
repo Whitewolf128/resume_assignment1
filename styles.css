@@ -5,7 +5,8 @@ body{
 color: #500000;
 background-color: #80ffff;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-size: 1vw;
+font-size: 1.5vw;
+
 }
 /*added color to the links when hovering, visited or neither*/
 a{
@@ -85,4 +86,10 @@ if its italic or not and checks if it can change on all devices if not it defaul
     body{
         width: 100%;/* The width is 100%, when the viewport is 800px or smaller */
     }
+}
+/*Flexbox*/
+ul {
+    padding: 10px;
+    margin: 10px;
+    background: #e0ffff;
 }
